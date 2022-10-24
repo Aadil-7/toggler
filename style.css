@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
+    transition: .8s;
+}
+
+.tg-body{
+    position: relative;
+    width: 105px;
+    height: 54px;
+    padding: 2px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    box-shadow:
+     0 5px 15px rgba(0, 0, 0, .2),
+    inset 0  0 10px 0px rgba(0, 0, 0, .3),
+    inset 0  0 10px 0px rgba(0, 0, 0, .3),
+    inset 0  0 10px 0px rgba(0, 0, 0, .3),
+    inset 0 1px 15px rgba(0, 0, 0, .5);
+}
+
+.tg-btn{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-right:50px ;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, .9),
+    inset 0  0 4px 0px rgba(0, 0, 0, .6),
+    inset 0  0 4px 0px rgba(0, 0, 0, .6),
+    inset 0  0 4px 0px rgba(0, 0, 0, .6),
+    inset 0  0 4px 0px rgba(0, 0, 0, .6),
+    inset 0  0 4px 0px rgba(0, 0, 0, .6),
+    inset 0  0 4px 0px rgba(0, 0, 0, .6),
+    inset 0 0 1px 1px rgba(0, 0, 0, .9);
+}
+.pointer{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+}
